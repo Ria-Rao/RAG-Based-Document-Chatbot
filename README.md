@@ -1,23 +1,13 @@
-# RAG-Based-Document-Chatbot
+# 📄 RAG-Based Document Chatbot
 
-This project is a lightweight Retrieval-Augmented Generation (RAG) chatbot that allows users to query a PDF document using natural language. It leverages FAISS for semantic similarity search, Sentence Transformers for generating text embeddings, and Streamlit for an interactive frontend interface.
+This is a Retrieval-Augmented Generation (RAG) based chatbot built using Streamlit, FAISS, HuggingFace Transformers, and Sentence Transformers. It allows you to upload a PDF, ask questions related to its content, and get answers generated using an LLM with context retrieved from the document.
 
 ---
 
-## Features
+## 🚀 Features
 
-- Upload and process a PDF document
-- Extract and chunk the text for embedding
+- Upload any PDF document
+- Extract and chunk text for embedding
 - Generate embeddings using Sentence Transformers
-- Store embeddings in a FAISS index for efficient retrieval
-- Query the document and receive top-matching responses
-
----
-
-## Tech Stack
-
-- Python
-- Streamlit
-- PyMuPDF (fitz)
-- FAISS
-- Sentence Transformers
+- Store and retrieve relevant chunks using FAISS
+- Generate detailed answers using FLAN-T5 
